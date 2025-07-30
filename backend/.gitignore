@@ -1,0 +1,53 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Migrations (optional: if auto-generated)
+alembic/versions/
+
+# Coverage / test results
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+.pytest_cache/
+.tox/
+
+# Compiled C extensions
+*.so
+
+# MyPy / Lint / Formatter
+.mypy_cache/
+.pyre/
+.pytype/
+ruff_cache/
+
+# FastAPI specific (if used with build tools)
+dist/
+build/
+*.egg-info/
